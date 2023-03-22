@@ -13,6 +13,8 @@
 		F42FAD0329CA03FF00B77526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42FAD0129CA03FF00B77526 /* Main.storyboard */; };
 		F42FAD0529CA040100B77526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42FAD0429CA040100B77526 /* Assets.xcassets */; };
 		F42FAD0829CA040100B77526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42FAD0629CA040100B77526 /* LaunchScreen.storyboard */; };
+		F42FAD1029CA041800B77526 /* CustomCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42FAD0F29CA041800B77526 /* CustomCardView.swift */; };
+		F4A24BC929CAE73500290F28 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A24BC829CAE73500290F28 /* Int+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F42FAD0429CA040100B77526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F42FAD0729CA040100B77526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F42FAD0929CA040100B77526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42FAD0F29CA041800B77526 /* CustomCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCardView.swift; sourceTree = "<group>"; };
+		F4A24BC829CAE73500290F28 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				F42FACFB29CA03FF00B77526 /* AppDelegate.swift */,
 				F42FACFD29CA03FF00B77526 /* SceneDelegate.swift */,
 				F42FACFF29CA03FF00B77526 /* ViewController.swift */,
+				F42FAD0F29CA041800B77526 /* CustomCardView.swift */,
 				F42FAD0129CA03FF00B77526 /* Main.storyboard */,
 				F42FAD0429CA040100B77526 /* Assets.xcassets */,
 				F42FAD0629CA040100B77526 /* LaunchScreen.storyboard */,
 				F42FAD0929CA040100B77526 /* Info.plist */,
+				F4A24BC829CAE73500290F28 /* Int+Extension.swift */,
 			);
 			path = CustomCardView;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A24BC929CAE73500290F28 /* Int+Extension.swift in Sources */,
 				F42FAD0029CA03FF00B77526 /* ViewController.swift in Sources */,
 				F42FACFC29CA03FF00B77526 /* AppDelegate.swift in Sources */,
 				F42FACFE29CA03FF00B77526 /* SceneDelegate.swift in Sources */,
+				F42FAD1029CA041800B77526 /* CustomCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

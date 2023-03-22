@@ -9,9 +9,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let customCardView = CustomCardView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .white
+        
+        customCardView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(customCardView)
+        
+        NSLayoutConstraint.activate([
+            customCardView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            customCardView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            customCardView.topAnchor.constraint(equalTo: view.topAnchor, constant: 500),
+            customCardView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+        ])
     }
 
 
